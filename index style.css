@@ -1,0 +1,120 @@
+body {
+    font-size: 0;
+    margin: 0;
+}
+
+
+header,
+footer {
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header nav a {
+    color: #51279b;
+}
+
+header nav a:hover {
+    color: #8662C7;
+}
+
+footer {
+    background-color: lightgrey;
+    color: green;
+
+    border: 1pt solid black;
+}
+
+footer nav a {
+    color: blue;
+}
+
+footer nav a:hover {
+    color: skyblue;
+}
+
+#main_image {
+    height: 65%;
+
+    background-image: url("images/florence.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2,
+button {
+    margin-left: 2.5%;
+
+    font-family: "Times New Roman";
+    color: white;
+}
+
+h1 {
+    margin-top: 2.5%;
+    margin-bottom: 0;
+
+    font-weight: 900;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+button {
+    width: 8%;
+    height: 8%;
+
+    background-color: #51279b;
+
+    color: white;
+    font-size: 20px;
+    font-family: "Helvetica";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div#explore_menu {
+    padding: 0.5%;
+}
+
+.card {
+    display: inline-block;
+
+    width: calc(99%/3);
+    margin: auto calc(1%/6);
+}
+
+img.small {
+    width: 100%;
+}
+
+.card_title,
+.card_description,
+.comment {
+    margin: 0.2% 0;
+    padding: 0;
+}
+
+[src="images/heart.png"],
+[src="images/comment.png"] {
+    height: 1.5%;
+}
+
+.card_title {
+    font-size: 14px;
+}
+
+.card_description {
+    font-size: 12px;
+}
+
+.count {
+    display: inline-block;
+    font-size: 10px;
+}
